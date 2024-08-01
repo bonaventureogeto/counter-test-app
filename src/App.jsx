@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import Counter from './components/Counter';
-// import Calculator from './components/Calculator';
+import Calculator from './components/Calculator';
 import DisplayData from './components/DisplayData';
 import RickandMorty from './components/RickandMorty';
+import Navbar from './components/Navbar';
 
 
 const App = () => {
@@ -19,10 +20,8 @@ const App = () => {
 
   return (
     <div>
-      {/* <Counter handleIncrement={handleIncrement} handleDecrement={handleDecrement} count={count} /> */}
-      {/* <Calculator /> */}
-      {/* <DisplayData /> */}
-      <RickandMorty />
+      <h1>Home Page</h1>
+      <Navbar />
     </div>
   )
 }
